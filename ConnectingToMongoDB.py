@@ -15,7 +15,7 @@ db = client["myNewDatabase"]
 collection = db["myCollection"]
 
 # Insert a document
-data = {"name": "Alice", "age": 25, "job": "Data Scientist"}
+data = {"name": "Shridhar", "age": 25, "job": "Test Engineer"}
 collection.insert_one(data)
 
 # Fetch and print all documents
